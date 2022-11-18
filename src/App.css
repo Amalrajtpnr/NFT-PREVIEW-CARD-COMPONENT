@@ -1,0 +1,162 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 20%;
+  height: 70%;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+  border-radius: 4%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.picture {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+.main {
+  width: 100%;
+  height: 45%;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* outline: 1px black solid ; */
+  margin-top: 3%;
+}
+
+.heading {
+  /* outline: 1px solid red; */
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(216, 50%, 16%);
+  font-weight: 600;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+  
+}
+
+.paragraph {
+  width: 100%;
+  height: 20%;
+/* outline: 2px solid yellowgreen; */
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 12px;
+}
+
+.description {
+  font-size: 16px ;
+  color: hsl(215, 51%, 70%);
+  font-weight: 100;
+  text-align: left;
+  max-width: 100%;
+}
+
+.features{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-betweenS;
+  /* outline: 1px white solid ; */
+  margin-top: 22px;
+}
+
+.coin,.time{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ethe{
+  width: 8px;
+height: 12px;  
+}
+
+.values{
+  color: hsl(178, 100%, 50%);
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.time{
+  justify-content: flex-end;
+}
+
+.duration{
+  color: hsl(178, 100%, 50%) ;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.tailend{
+  background-color:rgba(255, 255, 255, 0.2);
+  width: 98%;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.fragments{
+  width:100% ;
+  height: 20%;
+  /* outline: 4px solid rgb(71, 195, 4); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+padding-top: 12px;
+box-sizing: border-box;
+}
+
+.ava{
+  width: 28px;
+  height: 28px;
+  border: 1px white solid;
+  border-radius: 100%;
+}
+
+.line{
+color: hsl(215, 51%, 70%) ;
+font-size: 14px;
+display: flex;
+align-items: center;
+margin-left: 8px;
+ font-weight: 300;
+}
+
+.person{
+color: white ;
+font-size: 14px;
+margin-left: 8px;
+font-weight: 300
+}
